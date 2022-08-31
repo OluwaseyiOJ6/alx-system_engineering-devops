@@ -1,0 +1,2 @@
+#!/bin/bash
+find myDir -name '*.html' -type f -exec sh -c 'cp "$@" "$0"' ~/otherDir {} +
