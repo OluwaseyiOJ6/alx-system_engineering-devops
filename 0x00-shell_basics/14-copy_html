@@ -1,2 +1,2 @@
 #!/bin/bash
-find -'*.html' -type f -exec sh -c 'cp "$@" "$0"' ~/otherDir {} +
+cp -nu *.html ..
