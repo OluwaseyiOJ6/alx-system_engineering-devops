@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($((BINARY**B10))))
+echo $(($((BINARY**[Base2]10))))
